@@ -1,0 +1,45 @@
+.button {
+    width: 3em;
+    min-width: 2em;
+    max-width: 4em;
+    height: 3em;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 2em;
+    margin: 0.4em;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.numeric {
+    background-color: #505050;
+    color: white;
+}
+
+.numeric:hover {
+    background-color: #505050d0;
+    transition-delay: 0.1s;
+}
+
+.operation {
+    background-color: #FF9500;
+    color: black;
+    font-weight: bold;
+}
+
+.operation:hover {
+    background-color: #ff9500c6;
+    transition-delay: 0.1s;
+}
+
+.action {
+    background-color: #fefefe;
+    font-weight: bold;
+}
+
+.action:hover {
+    background-color: #cecece;
+    transition-delay: 0.1s;
+}
