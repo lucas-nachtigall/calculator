@@ -50,7 +50,7 @@ const useCalculator = () => {
   const calculate = (label: any) => {
     const calculations: any = {
       '-': oldNum - num,
-      '+': oldNum + num,
+      '+': +oldNum + +num,
       '*': oldNum * num,
       '/': oldNum / num
     }
